@@ -10,10 +10,13 @@ public class PTra02_08 {
 	public static void main(String[] args) {
 		int num = 20;
 		int calc = 5;
+		int sum;
+		sum = num + calc;
 		String name = "鈴木";
 
 		// ★ 変数num, calc, nameを連結して「鈴木さんは、25歳になりました」を出力してください
 
+		System.out.println("「鈴木さんは、"+  sum + "歳になりました」");
 
 	}
 }
